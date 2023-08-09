@@ -1,0 +1,87 @@
+/* Genel Stil */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header, nav, main, footer {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+  }
+  
+  /* Başlık Stili */
+  header h1 {
+    text-align: center;
+  }
+  
+  /* Navigasyon Stili */
+  nav ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  /* Tarif Makalesi Stili */
+  .recipe {
+    margin-bottom: 30px;
+  }
+  
+  .recipe img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .recipe h2 {
+    margin-top: 10px;
+  }
+  
+  .recipe p {
+    margin-top: 5px;
+  }
+  
+  .recipe a {
+    display: inline-block;
+    margin-top: 10px;
+    background-color: #333;
+    color: white;
+    padding: 5px 10px;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  /* Altbilgi Stili */
+  footer {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .category-buttons-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%; /* Sayfanın yüksekliğinin %80'ini alır */
+  }
+  
+  .category-button {
+    display: block;
+    width: 256px;
+    height: 256px;
+    background-color: white;
+    color: black;
+    text-align: center;
+    line-height: 256px;
+    text-decoration: none;
+    margin: 10px;
+    border-radius: 10px;
+  }
